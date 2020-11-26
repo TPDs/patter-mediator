@@ -5,17 +5,16 @@ import java.util.ArrayList;
 public class Component {
 
     private String itemName;
-    private ArrayList<ResourceType> type;
+    private ArrayList<Energy> type;
     private Action action;
-    private int amount;
 
 
-    public Component(String itemName, ArrayList<ResourceType> type, Action action, int amount) {
+    public Component(String itemName, ArrayList<Energy> type, Action action) {
         this.itemName = itemName;
         this.type = type;
         this.action = action;
-        this.amount = amount;
     }
+
 
     public String getItemName() {
         return itemName;
@@ -25,11 +24,11 @@ public class Component {
         this.itemName = itemName;
     }
 
-    public ArrayList<ResourceType> getType() {
+    public ArrayList<Energy> getType() {
         return type;
     }
 
-    public void setType(ArrayList<ResourceType> type) {
+    public void setType(ArrayList<Energy> type) {
         this.type = type;
     }
 
@@ -39,13 +38,5 @@ public class Component {
 
     public void setAction(Action action) {
         this.action = action;
-    }
-
-    public int getAmount() {
-        return amount;
-    }
-
-    public void setAmount(int amount) {
-        this.amount = amount;
     }
 }

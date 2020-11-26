@@ -4,7 +4,8 @@ import java.util.ArrayList;
 
 public class Shower extends Component {
 
-    public Shower(String itemName, ArrayList<ResourceType> type, Action action, int amount) {
-        super(itemName, type, action, amount);
+
+    public Shower(String itemName, ArrayList<Energy> type, Action action) {
+        super(itemName, type, action);
     }
 }

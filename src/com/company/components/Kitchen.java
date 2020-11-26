@@ -4,7 +4,12 @@ import java.util.ArrayList;
 
 public class Kitchen extends Component{
 
-    public Kitchen(String itemName, ArrayList<ResourceType> type, Action action, int amount) {
-        super(itemName, type, action, amount);
+
+    public Kitchen(String itemName, ArrayList<Energy> type, Action action) {
+        super(itemName, type, action);
     }
+
+
+
+
 }
