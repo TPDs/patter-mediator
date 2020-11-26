@@ -4,6 +4,5 @@ public enum ResourceType {
 
     Water,
     Power,
-    Heat,
 
 }
