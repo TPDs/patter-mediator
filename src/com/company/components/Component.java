@@ -9,10 +9,12 @@ public class Component {
     private Action action;
 
 
+
     public Component(String itemName, ArrayList<Energy> type, Action action) {
         this.itemName = itemName;
         this.type = type;
         this.action = action;
+
     }
 
 

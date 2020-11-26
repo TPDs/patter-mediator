@@ -6,5 +6,7 @@ public class Toilet extends Component {
 
     public Toilet(String itemName, ArrayList<Energy> type, Action action) {
         super(itemName, type, action);
+
+        type.add(new Energy(ResourceType.Power, 35));
     }
 }

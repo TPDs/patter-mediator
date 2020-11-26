@@ -6,5 +6,7 @@ public class Light extends Component{
 
     public Light(String itemName, ArrayList<Energy> type, Action action) {
         super(itemName, type, action);
+
+        type.add(new Energy(ResourceType.Power, 25));
     }
 }

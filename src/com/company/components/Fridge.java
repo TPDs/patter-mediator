@@ -7,5 +7,6 @@ public class Fridge extends Component{
 
     public Fridge(String itemName, ArrayList<Energy> type, Action action) {
         super(itemName, type, action);
+        type.add(new Energy(ResourceType.Power, 45));
     }
 }
