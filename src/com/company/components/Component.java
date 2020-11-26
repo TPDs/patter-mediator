@@ -1,16 +1,16 @@
 package com.company.components;
 
-import java.util.List;
+import java.util.ArrayList;
 
 public class Component {
 
     private String itemName;
-    private ResourceType <List> type;
+    private ArrayList<ResourceType> type;
     private Action action;
     private int amount;
 
 
-    public Component(String itemName, ResourceType<List> type, Action action, int amount) {
+    public Component(String itemName, ArrayList<ResourceType> type, Action action, int amount) {
         this.itemName = itemName;
         this.type = type;
         this.action = action;
@@ -25,11 +25,11 @@ public class Component {
         this.itemName = itemName;
     }
 
-    public ResourceType<List> getType() {
+    public ArrayList<ResourceType> getType() {
         return type;
     }
 
-    public void setType(ResourceType<List> type) {
+    public void setType(ArrayList<ResourceType> type) {
         this.type = type;
     }
 
