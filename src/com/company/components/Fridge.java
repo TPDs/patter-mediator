@@ -1,4 +1,4 @@
 package com.company.components;
 
-public class Fridge {
+public class Fridge extends Component{
 }
