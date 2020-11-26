@@ -1,4 +1,4 @@
 package com.company.components;
 
-public class Light {
+public class Light extends Component{
 }

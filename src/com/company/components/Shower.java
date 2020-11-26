@@ -1,4 +1,4 @@
 package com.company.components;
 
-public class Shower {
+public class Shower extends Component {
 }
